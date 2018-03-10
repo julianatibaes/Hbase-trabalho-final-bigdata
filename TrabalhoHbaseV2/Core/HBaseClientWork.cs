@@ -13,8 +13,8 @@ namespace TrabalhoHbaseV2.Core
     public class HBaseClientWork
     {
         private static Hbase.Client _hbase;
-        static byte[] table_name = Encoding.UTF8.GetBytes("pessoas");
-        static readonly byte[] Family = Encoding.UTF8.GetBytes("idade");
+        static byte[] table_name = Encoding.UTF8.GetBytes("remuneracao");
+        static readonly byte[] Family = Encoding.UTF8.GetBytes("fc");
         //static readonly byte[] NAME = Encoding.UTF8.GetBytes("nome");
         static int i = 0;
         static int port = 9090;
