@@ -154,80 +154,81 @@ C:\Hbase-csharp-sample\TrabalhoHbaseV2\bin\pt-br\System.Web.WebPages.Razor.resou
 C:\Hbase-csharp-sample\TrabalhoHbaseV2\obj\Debug\TrabalhoHbaseV2.csprojResolveAssemblyReference.cache
 C:\Hbase-csharp-sample\TrabalhoHbaseV2\obj\Debug\TrabalhoHbaseV2.dll
 C:\Hbase-csharp-sample\TrabalhoHbaseV2\obj\Debug\TrabalhoHbaseV2.pdb
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\ApplicationInsights.config
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\csc.exe
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\csc.exe.config
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\csc.rsp
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\csi.exe
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\csi.rsp
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\System.AppContext.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\vbc.exe
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\vbc.exe.config
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\vbc.rsp
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\VBCSCompiler.exe
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\TrabalhoHbaseV2.dll.config
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\TrabalhoHbaseV2.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\TrabalhoHbaseV2.pdb
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Antlr3.Runtime.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\hbase-sharp.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Microsoft.AI.Web.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Microsoft.ApplicationInsights.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Newtonsoft.Json.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\System.Web.Helpers.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\System.Web.Mvc.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\System.Web.Optimization.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\System.Web.Razor.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\System.Web.WebPages.Deployment.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\System.Web.WebPages.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\System.Web.WebPages.Razor.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\WebGrease.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\hbase-sharp.pdb
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\System.Web.Helpers.xml
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\System.Web.Mvc.xml
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\System.Web.Optimization.xml
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\System.Web.Razor.xml
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\System.Web.WebPages.xml
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\System.Web.WebPages.Deployment.xml
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\System.Web.WebPages.Razor.xml
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Thrift.pdb
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Antlr3.Runtime.pdb
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Newtonsoft.Json.xml
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Microsoft.ApplicationInsights.xml
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Microsoft.AI.Web.xml
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\pt-br\System.Web.Helpers.resources.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\pt-br\System.Web.Mvc.resources.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\pt-br\System.Web.Optimization.resources.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\pt-br\System.Web.Razor.resources.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\pt-br\System.Web.WebPages.resources.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\bin\pt-br\System.Web.WebPages.Razor.resources.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\obj\Debug\TrabalhoHbaseV2.csprojResolveAssemblyReference.cache
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\obj\Debug\TrabalhoHbaseV2.dll
-C:\Users\43767\Google Drive\Big Data\HBase\Trabalho\Projeto\Hbase-csharp-sample\TrabalhoHbaseV2\obj\Debug\TrabalhoHbaseV2.pdb
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\ApplicationInsights.config
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\csc.exe
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\csc.exe.config
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\csc.rsp
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\csi.exe
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\csi.rsp
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\System.AppContext.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\System.Collections.Immutable.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\System.IO.FileSystem.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\System.Reflection.Metadata.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\vbc.exe
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\vbc.exe.config
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\vbc.rsp
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\VBCSCompiler.exe
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\roslyn\VBCSCompiler.exe.config
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\TrabalhoHbaseV2.dll.config
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\TrabalhoHbaseV2.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\TrabalhoHbaseV2.pdb
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Antlr3.Runtime.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\hbase-sharp.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Microsoft.AI.Agent.Intercept.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Microsoft.AI.DependencyCollector.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Microsoft.AI.Web.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Microsoft.AI.WindowsServer.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Microsoft.ApplicationInsights.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Microsoft.Web.Infrastructure.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Newtonsoft.Json.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\System.Web.Helpers.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\System.Web.Mvc.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\System.Web.Optimization.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\System.Web.Razor.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\System.Web.WebPages.Deployment.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\System.Web.WebPages.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\System.Web.WebPages.Razor.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\WebGrease.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\hbase-sharp.pdb
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\System.Web.Helpers.xml
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\System.Web.Mvc.xml
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\System.Web.Optimization.xml
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\System.Web.Razor.xml
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\System.Web.WebPages.xml
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\System.Web.WebPages.Deployment.xml
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\System.Web.WebPages.Razor.xml
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Thrift.pdb
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Antlr3.Runtime.pdb
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Newtonsoft.Json.xml
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Microsoft.ApplicationInsights.xml
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Microsoft.AI.DependencyCollector.xml
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Microsoft.AI.WindowsServer.xml
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\Microsoft.AI.Web.xml
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\pt-br\System.Web.Helpers.resources.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\pt-br\System.Web.Mvc.resources.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\pt-br\System.Web.Optimization.resources.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\pt-br\System.Web.Razor.resources.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\pt-br\System.Web.WebPages.resources.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\obj\Debug\TrabalhoHbaseV2.csprojResolveAssemblyReference.cache
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\obj\Debug\TrabalhoHbaseV2.csproj.CoreCompileInputs.cache
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\obj\Debug\TrabalhoHbaseV2.dll
+C:\personal-file\Hbase-csharp-sample\TrabalhoHbaseV2\obj\Debug\TrabalhoHbaseV2.pdb

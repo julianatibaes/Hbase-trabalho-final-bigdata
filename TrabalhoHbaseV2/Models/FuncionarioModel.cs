@@ -14,5 +14,17 @@ namespace TrabalhoHbaseV2.Models
         public string Salario { get; set; }
         public string Jetons { get; set; }
         public string Cpf { get; set; }
+
+        public string GetRowKey()
+        {
+            return Ano + "_" + Mes + "_" + Cpf + "_" + Nome;
+        }
+        public string GetCPF()
+        {
+            if (Key != null)
+                return Key.Split('_')[2];
+            else
+                return "";
+        }
     }
 }
