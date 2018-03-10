@@ -23,7 +23,9 @@ namespace TrabalhoHbaseV2.Controllers
 
         public ActionResult Ranking()
         {
-            return View();
+            ListModel list = HBaseClientWork.List();
+            list.Funcionarios = list.Funcionarios.OrderByDescending(f => f.Salario).ToList();
+            return View(list);
         }
     }
 }
