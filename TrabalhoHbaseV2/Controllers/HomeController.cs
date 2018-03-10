@@ -37,7 +37,7 @@ namespace TrabalhoHbaseV2.Controllers
         public ActionResult Ranking()
         {
             ListModel list = HBaseClientWork.List("");
-            list.Funcionarios = list.Funcionarios.OrderByDescending(f => f.Salario).ToList();
+            list.Funcionarios = list.Funcionarios.OrderByDescending(f => Convert.ToDecimal(f.Salario)).ToList();
             return View(list);
         }
 
