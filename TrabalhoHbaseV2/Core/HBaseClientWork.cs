@@ -20,7 +20,7 @@ namespace TrabalhoHbaseV2.Core
         static int port = 9090;
         static string host = "192.168.248.129";
 
-        public static ListModel List()
+        public static ListModel List(string filtro)
         {
             try
             {
@@ -35,13 +35,23 @@ namespace TrabalhoHbaseV2.Core
                 transport.Open();
 
                 //Conectado
-                var scanner = _hbase.scannerOpen(table_name, Guid.Empty.ToByteArray(), new List<byte[]>() { Family });
+                int scanner;
+                scanner = _hbase.scannerOpen(table_name, Guid.Empty.ToByteArray(), new List<byte[]>() { Family });
+                //if (string.IsNullOrEmpty(filtro))
+                //    scanner = _hbase.scannerOpen(table_name, Guid.Empty.ToByteArray(), new List<byte[]>() { Family });
+                //else
+                //    scanner = _hbase.scannerOpenWithPrefix(table_name, Encoding.UTF8.GetBytes(filtro), new List<byte[]>() { Family });
+
                 for (var entry = _hbase.scannerGet(scanner); entry.Count > 0; entry = _hbase.scannerGet(scanner))
                 {
                     foreach (var rowResult in entry)
                     {
                         var funcionario = new FuncionarioModel();
                         funcionario.Key = Encoding.UTF8.GetString(rowResult.Row);
+
+                        if (!funcionario.Key.ToUpper().Contains(filtro.ToUpper()))
+                            continue;
+
                         var res = rowResult.Columns.Select(c => Encoding.UTF8.GetString(c.Value.Value));
 
                         int count = 0;
