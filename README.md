@@ -1,6 +1,7 @@
 # Trabalho Final Disciplina Hbase 
 
 Equipe:<br/>
-Anderson Priscila<br/>
+Anderson <br/>
+Priscila<br/>
 Luciano<br/>
 Eduardo<br/>
