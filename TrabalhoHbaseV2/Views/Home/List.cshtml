@@ -1,5 +1,6 @@
 ﻿@{
     ViewBag.Title = "List";
+    @model TrabalhoHbaseV2.Models.ListModel
 }
 
 
@@ -7,5 +8,24 @@
     <div class="col-md-12">
         <h2>List</h2>
     </div>
-</div>
 
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Key</th>
+                <th scope="col">Nome</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Funcionarios)
+            {
+                <tr>
+                    <td>@item.Key</td>
+                    <td>@item.Nome</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+</div>
