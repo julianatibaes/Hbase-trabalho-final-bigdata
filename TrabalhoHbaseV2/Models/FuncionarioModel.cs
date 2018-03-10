@@ -13,5 +13,6 @@ namespace TrabalhoHbaseV2.Models
         public string Nome { get; set; }
         public string Salario { get; set; }
         public string Jetons { get; set; }
+        public string Cpf { get; set; }
     }
 }

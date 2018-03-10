@@ -42,11 +42,26 @@ namespace TrabalhoHbaseV2.Core
                     {
                         var funcionario = new FuncionarioModel();
                         funcionario.Key = Encoding.UTF8.GetString(rowResult.Row);
-                        var res = rowResult.Columns.Select(c => BitConverter.ToInt32(c.Value.Value, 0));
-                        //foreach (var cell in res)
-                        //{
-                        //    Console.WriteLine("{0}", cell);
-                        //}
+                        var res = rowResult.Columns.Select(c => Encoding.UTF8.GetString(c.Value.Value));
+
+                        int count = 0;
+                        foreach (var cell in res)
+                        {
+                            if (count == 0)
+                                funcionario.Ano = Convert.ToInt32(cell);
+                            if (count == 1)
+                                funcionario.Cpf = cell.ToString();
+                            if (count == 2)
+                                funcionario.Jetons = cell.ToString();
+                            if (count == 3)
+                                funcionario.Mes = Convert.ToInt32(cell);
+                            if (count == 4)
+                                funcionario.Nome = cell.ToString();
+                            if (count == 5)
+                                funcionario.Salario = cell.ToString();
+
+                            count++;
+                        }
 
                         list.Funcionarios.Add(funcionario);
                     }
