@@ -33,7 +33,7 @@
             @foreach (var item in Model.Funcionarios)
             {
                 <tr>
-                    <td>@item.Key</td>
+                    <td><a href="/Home/Index/@item.Key">@item.Key</a></td>
                     <td>@item.Nome</td>
                     <td>@item.Ano</td>
                     <td>@item.Mes</td>

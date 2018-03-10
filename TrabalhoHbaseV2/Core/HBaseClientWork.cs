@@ -18,7 +18,7 @@ namespace TrabalhoHbaseV2.Core
         //static readonly byte[] NAME = Encoding.UTF8.GetBytes("nome");
         static int i = 0;
         static int port = 9090;
-        static string host = "192.168.248.129";
+        static string host = "192.168.139.128";
 
         public static ListModel List(string filtro)
         {
