@@ -1,37 +1,53 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-
+@model TrabalhoHbaseV2.Models.FuncionarioModel
 <div class="row">
     <div class="col-md-12">
         <h2>Funcionário</h2>
 
         <div class="alert alert-secondary" role="alert">
-            Key: ANO_MES_CPF_NOME
+            @if (@Model.Key != null)
+            {
+                <bold>Key: @Model.Key</bold>
+            }
+
         </div>
-        <form>
+        <div class="alert alert-secondary" role="alert">
+            @if (@ViewBag.Message != null)
+            {
+                <bold>Key: @ViewBag.Message</bold>
+            }
+
+        </div>
+        @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+        {
             <div class="form-group">
                 <label for="txtnome">Nome:</label>
-                <input type="text" class="form-control" id="txtnome" placeholder="Nome">
+                <input type="text" class="form-control" id="Nome" name="Nome" placeholder="Nome" value="@Model.Nome">
+            </div>
+            <div class="form-group">
+                <label for="txtnome">CPF:</label>
+                <input type="text" class="form-control" id="Cpf" name="Cpf" placeholder="Cpf" value="@Model.GetCPF()">
             </div>
             <div class="form-group">
                 <label for="txtAno">Ano:</label>
-                <input type="text" class="form-control" id="txtAno" placeholder="Ano">
+                <input type="text" class="form-control" id="Ano" name="Ano" placeholder="Ano" value="@Model.Ano">
             </div>
             <div class="form-group">
                 <label for="txtMes">Mes:</label>
-                <input type="text" class="form-control" id="txtMes" placeholder="Mes">
+                <input type="text" class="form-control" id="Mes" name="Mes" placeholder="Mes" value="@Model.Key">
             </div>
             <div class="form-group">
                 <label for="txtSalario">Salário:</label>
-                <input type="text" class="form-control" id="txtSalario" placeholder="Salário">
+                <input type="text" class="form-control" id="Salario" name="Salario" placeholder="Salário" value="@Model.Salario">
             </div>
             <div class="form-group">
                 <label for="txtJetons">Jetons:</label>
-                <input type="text" class="form-control" id="txtJetons" placeholder="Jetons">
+                <input type="text" class="form-control" id="Jetons" name="Jetons" placeholder="Jetons" value="@Model.Jetons">
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+        }
 
     </div>
 </div>
