@@ -52,24 +52,42 @@ namespace TrabalhoHbaseV2.Core
                         if (!funcionario.Key.ToUpper().Contains(filtro.ToUpper()))
                             continue;
 
+                        var keys = rowResult.Columns.Select(c => Encoding.UTF8.GetString(c.Key));
+
                         var res = rowResult.Columns.Select(c => Encoding.UTF8.GetString(c.Value.Value));
+
+                        string[] chave = new string[keys.Count()];
+                        int i = 0;
+                        foreach (var item in keys)
+                        {
+                            chave[i] = item.ToString();
+                            i++;
+                        }
 
                         int count = 0;
                         foreach (var cell in res)
                         {
-                            if (count == 0)
-                                funcionario.Ano = Convert.ToInt32(cell);
-                            if (count == 1)
-                                funcionario.Cpf = cell.ToString();
-                            if (count == 2)
-                                funcionario.Jetons = cell.ToString();
-                            if (count == 3)
-                                funcionario.Mes = Convert.ToInt32(cell);
-                            if (count == 4)
-                                funcionario.Nome = cell.ToString();
-                            if (count == 5)
-                                funcionario.Salario = cell.ToString();
-
+                            switch (chave[count])
+                            {
+                                case "fc:ano":
+                                    funcionario.Ano = Convert.ToInt32(cell);
+                                    break;
+                                case "fc:cpf":
+                                    funcionario.Cpf = cell.ToString();
+                                    break;
+                                case "fc:jetons":
+                                    funcionario.Jetons = cell.ToString();
+                                    break;
+                                case "fc:mes":
+                                    funcionario.Mes = Convert.ToInt32(cell);
+                                    break;
+                                case "fc:nome":
+                                    funcionario.Nome = cell.ToString();
+                                    break;
+                                case "fc:salario":
+                                    funcionario.Salario = cell.ToString();
+                                    break;                                                                   
+                            }
                             count++;
                         }
 
