@@ -20,7 +20,7 @@ namespace TrabalhoHbaseV2.Core
         static int port = 9090;
         static string host = "192.168.139.128";
 
-        public static ListModel List()
+        public static ListModel List(string filtro)
         {
             try
             {
@@ -42,6 +42,7 @@ namespace TrabalhoHbaseV2.Core
                     {
                         var funcionario = new FuncionarioModel();
                         funcionario.Key = Encoding.UTF8.GetString(rowResult.Row);
+                   
                         var res = rowResult.Columns.Select(c => Encoding.UTF8.GetString(c.Value.Value));
 
                         int count = 0;

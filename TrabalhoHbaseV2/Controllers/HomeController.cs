@@ -17,13 +17,20 @@ namespace TrabalhoHbaseV2.Controllers
 
         public ActionResult List()
         {
-            var list = HBaseClientWork.List();
+            var list = HBaseClientWork.List("");
             return View(list);
         }
 
         public ActionResult Ranking()
         {
             return View();
+        }
+
+        [HttpPost]
+        public ActionResult Buscar(string filtro)
+        {
+            var list = HBaseClientWork.List(filtro);
+            return View("List", list);
         }
     }
 }
