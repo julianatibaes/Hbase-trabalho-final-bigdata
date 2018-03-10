@@ -1,10 +1,41 @@
 ﻿@{
-    ViewBag.Title = "Ranking";
+    ViewBag.Title = "List";
+    @model TrabalhoHbaseV2.Models.ListModel
 }
 
 
 <div class="row">
     <div class="col-md-12">
-        <h2>Ranking</h2>
+        <h2>List</h2>
     </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Key</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Ano</th>
+                <th scope="col">Mês</th>
+                <th scope="col">CPF</th>
+                <th scope="col">Jetons</th>
+                <th scope="col">Salário</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Funcionarios)
+            {
+                <tr>
+                    <td>@item.Key</td>
+                    <td>@item.Nome</td>
+                    <td>@item.Ano</td>
+                    <td>@item.Mes</td>
+                    <td>@item.Cpf</td>
+                    <td>@item.Jetons</td>
+                    <td>@item.Salario</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
 </div>

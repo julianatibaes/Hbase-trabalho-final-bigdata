@@ -18,9 +18,9 @@ namespace TrabalhoHbaseV2.Core
         //static readonly byte[] NAME = Encoding.UTF8.GetBytes("nome");
         static int i = 0;
         static int port = 9090;
-        static string host = "192.168.219.129";
+        static string host = "192.168.248.129";
 
-        public static ListModel List()
+        public static ListModel List(string filtro)
         {
             try
             {
@@ -35,18 +35,61 @@ namespace TrabalhoHbaseV2.Core
                 transport.Open();
 
                 //Conectado
-                var scanner = _hbase.scannerOpen(table_name, Guid.Empty.ToByteArray(), new List<byte[]>() { Family });
+                int scanner;
+                scanner = _hbase.scannerOpen(table_name, Guid.Empty.ToByteArray(), new List<byte[]>() { Family });
+                //if (string.IsNullOrEmpty(filtro))
+                //    scanner = _hbase.scannerOpen(table_name, Guid.Empty.ToByteArray(), new List<byte[]>() { Family });
+                //else
+                //    scanner = _hbase.scannerOpenWithPrefix(table_name, Encoding.UTF8.GetBytes(filtro), new List<byte[]>() { Family });
+
                 for (var entry = _hbase.scannerGet(scanner); entry.Count > 0; entry = _hbase.scannerGet(scanner))
                 {
                     foreach (var rowResult in entry)
                     {
                         var funcionario = new FuncionarioModel();
                         funcionario.Key = Encoding.UTF8.GetString(rowResult.Row);
-                        var res = rowResult.Columns.Select(c => BitConverter.ToInt32(c.Value.Value, 0));
-                        //foreach (var cell in res)
-                        //{
-                        //    Console.WriteLine("{0}", cell);
-                        //}
+
+                        if (!funcionario.Key.ToUpper().Contains(filtro.ToUpper()))
+                            continue;
+
+                        var keys = rowResult.Columns.Select(c => Encoding.UTF8.GetString(c.Key));
+
+                        var res = rowResult.Columns.Select(c => Encoding.UTF8.GetString(c.Value.Value));
+
+                        string[] chave = new string[keys.Count()];
+                        int i = 0;
+                        foreach (var item in keys)
+                        {
+                            chave[i] = item.ToString();
+                            i++;
+                        }
+
+                        int count = 0;
+                        foreach (var cell in res)
+                        {
+                            switch (chave[count])
+                            {
+                                case "fc:ano":
+                                    funcionario.Ano = Convert.ToInt32(cell);
+                                    break;
+                                case "fc:cpf":
+                                    funcionario.Cpf = cell.ToString();
+                                    break;
+                                case "fc:jetons":
+                                    funcionario.Jetons = cell.ToString();
+                                    break;
+                                case "fc:mes":
+                                    funcionario.Mes = Convert.ToInt32(cell);
+                                    break;
+                                case "fc:nome":
+                                    funcionario.Nome = cell.ToString();
+                                    break;
+                                case "fc:salario":
+                                    funcionario.Salario = cell.ToString();
+                                    break;                                                                   
+                            }
+                            count++;
+                        }
 
                         list.Funcionarios.Add(funcionario);
                     }
