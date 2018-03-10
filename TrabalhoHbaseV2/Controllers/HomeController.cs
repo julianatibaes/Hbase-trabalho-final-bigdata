@@ -14,7 +14,7 @@ namespace TrabalhoHbaseV2.Controllers
         {
             var model = new FuncionarioModel();
             
-            if (key != "")
+            if (key != null)
             {
                 model = HBaseClientWorkV2.Get(key);
             }
