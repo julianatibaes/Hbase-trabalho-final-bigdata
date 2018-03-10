@@ -1,6 +1,4 @@
-# Hbase-csharp-sample
-
-Trabalho de Hbase - Pós BigData
+# Trabalho Final Disciplina Hbase 
 
 Equipe:<br/>
 Anderson Priscila<br/>
